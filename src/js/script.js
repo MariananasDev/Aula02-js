@@ -29,7 +29,7 @@ let multiplicacao = 4*2;
 console.log(multiplicacao)
 let subtracao = 10-5;
 console.log(subtracao)
-let resto = 10%3;
+let resto = 10 % 3;
 console.log(resto)
 let divisao = 5/3;
 console.log(divisao)
@@ -58,6 +58,20 @@ let habilitacao = true;
 
 let dirigir = (temidade >= 18) && habilitacao;
 console.log("O usuario pode dirigir?", dirigir);
+
+// Estrutura Condicional
+
+if(true){
+    console.log("É VERDADEIRO")
+}
+
+if(true){
+    console.log(verdadeiro)
+}
+else{
+    console.log("Falso")
+}
+
 
 
 
