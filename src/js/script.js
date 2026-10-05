@@ -66,13 +66,69 @@ if(true){
 }
 
 if(true){
-    console.log(verdadeiro)
+    console.log("verdadeiro")
 }
 else{
     console.log("Falso")
 }
 
+//  if/ if else/ else encadeado
+
+let nota = 7;
+
+if (nota >= 8){
+    console.log("Aprovado com sucesso")
+}
+
+else if (nota >= 6){
+    console.log("Ficou de exame")
+}
+
+else{
+    console.log("Reprovado")
+}
+
+// SWICH CASE
+
+let diasemana = 3;
+
+switch(diasemana){
+    case 1:
+        console.log("Segunda-feira")
+        break
+    case 2:
+        console.log("Terça-feira")
+        break
+    case 3:
+        console.log("Quarta-feira")
+        break
+    case 4:
+        console.log("Quinta-feira")
+        break
+    default:
+        console.log("Outro dia")
+}
+
+// Ternário
+
+let notaUsuario = (nota >= 6)? "Aprovado": "Reprovado"; // ? - if : - else
+console.log(notaUsuario)
+
+let idade1 = 18;
+let podePiloar = idade1 >= 18 ? "Pode pilotar": "Não pode pilotar";
+
+// Ternario encadiado ou aninhado
+let resultado = 100;
+
+let jogador = resultado <= 20 ? "Jogo bom":
+              resultado >= 20 && resultado < 99 ? "Jogo médio":
+              resultado >= 100 ? "Jogo alto": "Extraordinario";
+console.log(jogador)
 
 
+// FOR (para) - Estrutura de repetição
 
-
+//   declaração      operação     incremento
+for(let numero = 0; numero <= 10; numero ++){
+    console.log(`contagem de numeros ${numero}`)
+}
